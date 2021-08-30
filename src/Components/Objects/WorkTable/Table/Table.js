@@ -7,17 +7,16 @@ const Table = () => {
   return (
     <div class="wrapper">
       <div class="tab">
-        <Button
+      <Button
           {...{
-            text: "Prifina",
+            text: "TacoBell",
             class: "tablinks",
             id: "first",
             onClick: (e) => {
-              openJob(e, "Prifina");
+              openJob(e, "TacoBell");
             },
           }}
         >
-          Prifina
         </Button>
 
         <Button
@@ -29,8 +28,20 @@ const Table = () => {
             },
           }}
         >
-          Prifina
         </Button>
+
+        <Button
+          {...{
+            text: "Prifina",
+            class: "tablinks",
+            id: "first",
+            onClick: (e) => {
+              openJob(e, "Prifina");
+            },
+          }}
+        >
+        </Button>
+        
         <Button
           {...{
             text: "ICS Student Council",
@@ -41,6 +52,32 @@ const Table = () => {
           }}
         ></Button>
       </div>
+
+      <Tab
+        {...{
+          id: "TacoBell",
+          jobTitle: "Software Engineer Intern",
+          spanClass: "highlight",
+          spanText: " @ TacoBell",
+          duration: "Jun. 2019 - Sept. 2019",
+          description1:
+            "Started as intern deploying AWS lambdas with dynamoDB database and integrated full stack project using React",
+          description2:
+            "Developed APIs through the use of Serverless framework and Express APIs.",
+        }}
+      ></Tab>
+
+      <Tab
+        {...{
+          id: "CoderSchool",
+          jobTitle: "Software Engineer Instructor",
+          duration: "Jun. 2019 - Sept. 2019",
+          description1:
+            "Held Python, Javascript, and HTML workshops for kids from ages 8 to 16. Integrated programming platforms such as Scratch, Repl, and Pygame.",
+          description2:
+            "Helped increase students’ development skills such as teamwork, creativity, and presentation skills.",
+        }}
+      ></Tab>
 
       <Tab
         {...{
@@ -56,17 +93,6 @@ const Table = () => {
         }}
       ></Tab>
 
-      <Tab
-        {...{
-          id: "CoderSchool",
-          jobTitle: "Software Engineer Instructor",
-          duration: "Jun. 2019 - Sept. 2019",
-          description1:
-            "Held Python, Javascript, and HTML workshops for kids from ages 8 to 16. Integrated programming platforms such as Scratch, Repl, and Pygame.",
-          description2:
-            "Helped increase students’ development skills such as teamwork, creativity, and presentation skills.",
-        }}
-      ></Tab>
 
       <Tab
         {...{

@@ -27,7 +27,7 @@ class MainPage extends Component {
             <h3 class="intro">
               I'm a software engineer based in Fremont, CA specializing in
               information systems while creating high-quality applications
-              through back-end coding.
+              through use of Serverless Lambas and ExpressJS APIs.
             </h3>
             <Button
               {...{
@@ -44,7 +44,7 @@ class MainPage extends Component {
               <li>
                 <span class="listTitle"> About Me</span>
                 <div class="container">
-                  <a href="https://github.com/Giorgioatanasov" target="_blank">
+                  <a href="https://github.com/Giorgioatanasov" target="_blank" rel="noreferrer">
                     <figure class="profile">
                       <img src="./Images/GiorgioPhoto.png" />
                     </figure>
@@ -54,11 +54,10 @@ class MainPage extends Component {
                     who loves to build applications that live on the internet. I
                     create applications through the use of back-end coding to
                     provide intuitive and effortless user interfaces with
-                    efficient run-times. I am currently going into my fourth
-                    year as a computer science major at the{" "}
+                    efficient run-times. I am currently a back-end software engineer at {" "}
                     <span class="highlight">
                       {" "}
-                      University of California, Irvine.{" "}
+                      Taco Bell HQ.{" "}
                     </span>{" "}
                     <br />
                     <br />I was apart of the engineering team at{" "}
@@ -98,14 +97,14 @@ class MainPage extends Component {
                 <div class="projIcons">
                   <a
                     href="https://github.com/onthehouse117/On-The-House-Front-End"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     {" "}
                     <i class="fa fa-github" id="specificIcons"></i>
                   </a>
                   <a
                     href="https://onthehouse-190cb.firebaseapp.com/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     {" "}
                     <i class="fa fa-external-link" id="specificIcons"></i>
@@ -137,14 +136,14 @@ class MainPage extends Component {
                 <div class="projIcons">
                   <a
                     href="https://github.com/Giorgioatanasov/ToolsforSpotify"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     {" "}
                     <i class="fa fa-github" id="specificIcons"></i>
                   </a>
                   <a
                     href="https://toolsforspotify.netlify.com/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     {" "}
                     <i class="fa fa-external-link" id="specificIcons"></i>
@@ -212,7 +211,7 @@ class MainPage extends Component {
             </ol>
             <h1 class="touchHeader">Get In Touch</h1>
             <h2 class="touchInfo">
-              I am currently looking for future job opportunities. My inbox is
+              Don't hesitate to reach out! My inbox is
               always open as I am very responsive. I look forward to hearing
               from you!
             </h2>
