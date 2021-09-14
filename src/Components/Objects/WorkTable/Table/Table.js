@@ -56,10 +56,10 @@ const Table = () => {
       <Tab
         {...{
           id: "TacoBell",
-          jobTitle: "Software Engineer Intern",
+          jobTitle: "Software Engineer",
           spanClass: "highlight",
           spanText: " @ TacoBell",
-          duration: "Jun. 2019 - Sept. 2019",
+          duration: "Jun. 2019 - Present",
           description1:
             "Started as intern deploying AWS lambdas with dynamoDB database and integrated full stack project using React",
           description2:
