@@ -59,7 +59,7 @@ class MainPage extends Component {
                       Applause
                     </span>.
                     <br />
-                    <br />Previously I was apart of the back-end engineering team at{" "}
+                    <br />Previously I was a part of the back-end engineering team at{" "}
                     <span class="highlight">Taco Bell HQ</span> . Here I worked on
                     developing APIs through the use of Serverless and Express framework as well
                     as a variety of interesting and meaningful projects on a
