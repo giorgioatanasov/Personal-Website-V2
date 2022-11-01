@@ -12,6 +12,7 @@ const Tab = (props) => {
       <ul>
         <li>{props.description1}</li>
         <li>{props.description2}</li>
+        {props.description3 && <li>{props.description3}</li>}
       </ul>
     </div>
   );

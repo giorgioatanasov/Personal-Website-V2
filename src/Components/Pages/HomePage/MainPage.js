@@ -21,13 +21,12 @@ class MainPage extends Component {
             <h1 class="greating">Hello, I am</h1>
             <h2 class="name">Giorgio Atanasov</h2>
             <h3 id="glitch">
-              {/* <h3 id="glitch" data-text="I engineer web applications."> */}I
-              engineer web applications.
+              I engineer web applications.
             </h3>
             <h3 class="intro">
-              I'm a software engineer based in Fremont, CA specializing in
+              I'm a software engineer based in the Bay Area specializing in
               information systems while creating high-quality applications
-              through use of Serverless Lambas and ExpressJS APIs.
+              through use of Serverless Lambdas and ExpressJS APIs.
             </h3>
             <Button
               {...{
@@ -50,19 +49,19 @@ class MainPage extends Component {
                     </figure>
                   </a>
                   <p class="firstAbout">
-                    Hello! I'm Giorgio, a software engineer based in Fremont, CA
+                    Hello! I'm Giorgio, a software engineer based in the Bay Area
                     who loves to build applications that live on the internet. I
                     create applications through the use of back-end coding to
                     provide intuitive and effortless user interfaces with
-                    efficient run-times. I am currently a back-end software engineer at {" "}
+                    efficient run-times. I am currently a fullstack software engineer at {" "}
                     <span class="highlight">
-                      {" "}
-                      Taco Bell HQ.{" "}
-                    </span>{" "}
+                      {" "} 
+                      Applause
+                    </span>.
                     <br />
-                    <br />I was apart of the engineering team at{" "}
-                    <span class="highlight">Prifina</span> where I worked on
-                    back-end applications that deal with AWS Serverless as well
+                    <br />Previously I was apart of the back-end engineering team at{" "}
+                    <span class="highlight">Taco Bell HQ</span> . Here I worked on
+                    developing APIs through the use of Serverless and Express framework as well
                     as a variety of interesting and meaningful projects on a
                     daily.
                   </p>

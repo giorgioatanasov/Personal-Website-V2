@@ -1,7 +1,6 @@
 import $ from "jquery";
 
 function NotFoundScript() {
-  var inputReady = true;
   var input = $(".404-input");
   input.focus();
   $(".container").on("click", function (e) {
@@ -10,7 +9,6 @@ function NotFoundScript() {
 
   input.on("keyup", function (e) {
     $(".new-output").text(input.val());
-    // console.log(inputReady);
   });
 
   $(".four-oh-four-form").on("submit", function (e) {
@@ -52,15 +50,6 @@ function resetForm(firstRun) {
     );
   }
 
-  // if (
-  //   parsedInput.length === 2 &&
-  //   parsedInput[0] === "cd" &&
-  //   parsedInput[1].toLowerCase() === "resume"
-  // ) {
-  //   message = "You will be redirected to resume in 3 seconds";
-  //   var resume = true;
-  // }
-
   if (
     parsedInput.length === 2 &&
     parsedInput[0] === "cd" &&
@@ -97,7 +86,7 @@ function resetForm(firstRun) {
     clear = false;
   } else if (resume) {
     setTimeout(function () {
-      window.location.href = "Resume/GiorgioAtanasovResume.pdf";
+      window.location.href = "resume/GiorgioAtanasovResume.pdf";
     }, 3000);
   } else if (home) {
     setTimeout(function () {

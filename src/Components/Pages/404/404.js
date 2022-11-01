@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import $ from "jquery";
 import { NotFoundScript, errMsg, resetForm } from "./404Script.js";
 import "./404.css";
 
@@ -14,7 +13,7 @@ class NotFound extends Component {
     return (
       <html lang="en">
         <meta charset="UTF-8"></meta>
-        <link rel="stylesheet" href="./NotFound.css"></link>
+        <link rel="stylesheet" href="/NotFound.css"></link>
         <body>
           <div class="container">
             <form class="four-oh-four-form">
